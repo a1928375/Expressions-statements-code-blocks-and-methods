@@ -1,6 +1,8 @@
 # Expressions-statements-code-blocks-and-methods
 
-1. IfKeywordAndCodeBlock: if-else statement
+1. IfKeywordAndCodeBlock: 
+	
+      (1) if-else statement
 
 2. Methods & MethodsTests: 
 
@@ -125,7 +127,7 @@
       (3) TIP: Use the if else statement with multiple conditions.
 
 
-6. LeapYearCalculator
+6. LeapYearCalculator:
 
       (1) Write a method isLeapYear with a parameter of type int named year. The parameter needs to be greater than or equal to 1 and           less than or equal to 9999. If the parameter is not in that range return false. Otherwise, if it is in the valid range, calculate         if the year is a leap year and return true if it is a leap year, otherwise return false.
       
