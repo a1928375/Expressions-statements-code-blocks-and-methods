@@ -73,7 +73,8 @@
             average= 4.5
             roundedAverage= 5
 
-      (5) 
+      (5)
+      
             TIP: In the method printConversion, call the method toMilesPerHour instead of duplicating the code.
             NOTE: All methods should be defined as public static like we have been doing so far in the course.
             NOTE: 1 mile per hour is 1.609 kilometers per hour
