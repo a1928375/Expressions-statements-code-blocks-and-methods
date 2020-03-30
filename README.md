@@ -73,10 +73,11 @@
             average= 4.5
             roundedAverage= 5
 
-      (5) TIP: In the method printConversion, call the method toMilesPerHour instead of duplicating the code.
-      NOTE: All methods should be defined as public static like we have been doing so far in the course.
-      NOTE: 1 mile per hour is 1.609 kilometers per hour
-      NOTE: Do not add a main method to the solution code.
+      (5) 
+            TIP: In the method printConversion, call the method toMilesPerHour instead of duplicating the code.
+            NOTE: All methods should be defined as public static like we have been doing so far in the course.
+            NOTE: 1 mile per hour is 1.609 kilometers per hour
+            NOTE: Do not add a main method to the solution code.
 
 3. MegaBytesConverters:
 
@@ -97,11 +98,12 @@
             * printMegaBytesAndKiloBytes(5000); → should print the following text: "5000 KB = 4 MB and 904 KB"
 
 
-      (3) TIP: Be extremely careful about spaces in the printed message. 
-      TIP: Use the remainder operator
-      TIP: 1 MB = 1024 KB
+      (3)
+            TIP: Be extremely careful about spaces in the printed message. 
+            TIP: Use the remainder operator
+            TIP: 1 MB = 1024 KB
 
-      NOTE: Do not set kilobytes parameter value inside your method. 
-      NOTE: The solution will not be accepted if there are extra spaces.
-      NOTE: The printMegaBytesAndKiloBytes method  needs to be defined as public static like we have been doing so far in the                   course.
-      NOTE: Do not add a  main method to solution code.
+            NOTE: Do not set kilobytes parameter value inside your method. 
+            NOTE: The solution will not be accepted if there are extra spaces.
+            NOTE: The printMegaBytesAndKiloBytes method  needs to be defined as public static like we have been doing so far in the                   course.
+            NOTE: Do not add a  main method to solution code.
