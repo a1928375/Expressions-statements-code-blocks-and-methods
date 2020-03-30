@@ -76,7 +76,6 @@
       (5)
       
             TIP: In the method printConversion, call the method toMilesPerHour instead of duplicating the code.
-            NOTE: All methods should be defined as public static like we have been doing so far in the course.
             NOTE: 1 mile per hour is 1.609 kilometers per hour
 
 3. MegaBytesConverters:
@@ -99,13 +98,11 @@
 
 
       (3)
-            TIP: Be extremely careful about spaces in the printed message. 
+      
             TIP: Use the remainder operator
             TIP: 1 MB = 1024 KB
 
             NOTE: Do not set kilobytes parameter value inside your method. 
-            NOTE: The solution will not be accepted if there are extra spaces.
-            NOTE: The printMegaBytesAndKiloBytes method  needs to be defined as public static like we have been doing so far in the                   course.
 
 4. BarkingDog:
 
@@ -123,10 +120,8 @@
             * shouldWakeUp (true, 8); → should return false, since it's not before 8.
             * shouldWakeUp (true, -1); → should return false since the hourOfDay parameter needs to be in a range 0-23.
 
-      (3) 
-            
-            TIP: Use the if else statement with multiple conditions.
-            NOTE: The shouldWakeUp method  needs to be defined as public static like we have been doing so far in the course.
+      (3) TIP: Use the if else statement with multiple conditions.
+
 
 5. LeapYearCalculator
 
@@ -153,4 +148,3 @@
             * isLeapYear(2017); → should return false since 2017 is not a leap year
             * isLeapYear(2000);  → should return true because 2000 is a leap year 
 
-      (4) NOTE: The method isLeapYear needs to be defined as public static like we have been doing so far in the course.
