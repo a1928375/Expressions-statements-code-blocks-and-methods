@@ -162,3 +162,47 @@
 
 
       (3) TIP: Use casting.
+
+7. EqualSumChecker:
+
+      (1) Write a method hasEqualSum with 3 parameters of type int. The method should return boolean and it needs to return true if the         sum of the first and second parameter is equal to the third parameter. Otherwise, return false.
+
+
+      (2) EXAMPLES OF INPUT/OUTPUT:
+
+            * hasEqualSum(1, 1, 1);  should return false since 1 + 1 is not equal to 1
+            * hasEqualSum(1, 1, 2);  should return true since 1 + 1 is equal to 2
+            * hasEqualSum(1, -1, 0);  should return true since 1 + (-1) is 1 - 1 and is equal to 0
+
+8. TeenNumberChecker:
+
+      (1) We'll say that a number is "teen" if it is in the range 13 -19 (inclusive). Write a method named hasTeen with 3 parameters of         type int. The method should return boolean and it needs to return true if one of the parameters is in range 13(inclusive) - 19            (inclusive). Otherwise return false.
+
+      (2) EXAMPLES OF INPUT/OUTPUT:
+
+            * hasTeen(9, 99, 19);  should return true since 19 is in range 13 - 19
+            * hasTeen(23, 15, 42);  should return true since 15 is in range 13 - 19
+            * hasTeen(22, 23, 34);  should return false since numbers 22, 23, 34 are not in range 13-19
+
+
+      (3) Write another method named isTeen with 1 parameter of type int. The method should return boolean and it needs to return true if       the parameter is in range 13(inclusive) - 19 (inclusive). Otherwise return false.
+
+      (4) EXAMPLES OF INPUT/OUTPUT:
+
+            * isTeen(9);  should return false since 9 is in not range 13 - 19
+            * isTeen(13);  should return true since 13 is in range 13 - 19
+
+9. Overloading:
+
+      (1) Create a method called calcFeetAndInchesToCentimeters. It needs to have two parameters. Feet is the first parameter, inches is       the 2nd parameter
+      
+      (2) You should validate that the first parameter feet is >= 0. You should validate that the 2nd parameter inches is >=0 and <=12,         and return -1 from the method if either of the above is not true. If the parameters are valid, then calculate how many centimetres
+      comprise the feet and inches passed to this method and return that value.
+
+      (3) Create a 2nd method of the same name but with only one parameter inches is the parameter, validate that its >=0, and return -1       if it is not true. But if its valid, then calculate how many feet are in the inches. And then here is the tricky part: call the           other overloaded method passing the correct feet and inches calculated so that it can calculate correctly.
+      
+      (4) 
+      
+            Hints: Use double for your number datatypes is probably a good idea
+            Hints: 1 inch = 2.54cm  and one foot = 12 inches
+            Hints: Calling another overloaded method just requires you to use the right number of parameters.
