@@ -1,6 +1,6 @@
 # Expressions-statements-code-blocks-and-methods
 
-1. Methods: 
+1. Methods & MethodsTests: 
 
       (1) Create a method called displayHighScorePosition, and it should a players name as a parameter, and a 2nd parameter as a position         in the high score table. You should display the players name along with a message like " managed to get into position " and the
       position they got and a further message " on the high score table". 
@@ -13,4 +13,5 @@
             4 in all other cases
             
       call both methods and display the results of the following a score of 1500, 900, 400 and 50.
-        //
+
+2. 
