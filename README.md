@@ -1,6 +1,8 @@
 # Expressions-statements-code-blocks-and-methods
 
-1. Methods & MethodsTests: 
+1. IfKeywordAndCodeBlock: if-else statement
+
+2. Methods & MethodsTests: 
 
       (1) Create a method called displayHighScorePosition, and it should a players name as a parameter, and a 2nd parameter as a position         in the high score table. You should display the players name along with a message like " managed to get into position " and the
       position they got and a further message " on the high score table". 
@@ -14,7 +16,7 @@
             
       call both methods and display the results of the following a score of 1500, 900, 400 and 50.
 
-2. SpeedConverter:
+3. SpeedConverter:
 
       (1) Write a method called toMilesPerHour that has 1 parameter of type double with the name kilometersPerHour. This method needs to        return the rounded value of the calculation of type long. If the parameter kilometersPerHour is less than 0, the method                  toMilesPerHour needs to return -1 to indicate an invalid value. Otherwise, if it is positive, calculate the value of miles per          hour, round it and return it. For conversion and rounding, check the notes in the text below.
 
@@ -78,7 +80,7 @@
             TIP: In the method printConversion, call the method toMilesPerHour instead of duplicating the code.
             NOTE: 1 mile per hour is 1.609 kilometers per hour
 
-3. MegaBytesConverters:
+4. MegaBytesConverters:
 
       (1) Write a method called printMegaBytesAndKiloBytes that has 1 parameter of type int with the name kiloBytes. The method should          not return anything (void) and it needs to calculate the megabytes and remaining kilobytes from the kilobytes parameter. Then it          needs to print a message in the format "XX KB = YY MB and ZZ KB".
 
@@ -104,7 +106,7 @@
 
             NOTE: Do not set kilobytes parameter value inside your method. 
 
-4. BarkingDog:
+5. BarkingDog:
 
       (1) We have a dog that likes to bark.  We need to wake up if the dog is barking at night! Write a method shouldWakeUp that has 2          parameters.
 
@@ -123,7 +125,7 @@
       (3) TIP: Use the if else statement with multiple conditions.
 
 
-5. LeapYearCalculator
+6. LeapYearCalculator
 
       (1) Write a method isLeapYear with a parameter of type int named year. The parameter needs to be greater than or equal to 1 and           less than or equal to 9999. If the parameter is not in that range return false. Otherwise, if it is in the valid range, calculate         if the year is a leap year and return true if it is a leap year, otherwise return false.
       
@@ -148,7 +150,7 @@
             * isLeapYear(2017); → should return false since 2017 is not a leap year
             * isLeapYear(2000);  → should return true because 2000 is a leap year 
 
-6. DecomalComparator:
+7. DecomalComparator:
 
       (1) Write a method areEqualByThreeDecimalPlaces with two parameters of type double. The method should return boolean and it needs         to return true if two double numbers are the same up to three decimal places. Otherwise, return false.
 
@@ -163,7 +165,7 @@
 
       (3) TIP: Use casting.
 
-7. EqualSumChecker:
+8. EqualSumChecker:
 
       (1) Write a method hasEqualSum with 3 parameters of type int. The method should return boolean and it needs to return true if the         sum of the first and second parameter is equal to the third parameter. Otherwise, return false.
 
@@ -174,7 +176,7 @@
             * hasEqualSum(1, 1, 2);  should return true since 1 + 1 is equal to 2
             * hasEqualSum(1, -1, 0);  should return true since 1 + (-1) is 1 - 1 and is equal to 0
 
-8. TeenNumberChecker:
+9. TeenNumberChecker:
 
       (1) We'll say that a number is "teen" if it is in the range 13 -19 (inclusive). Write a method named hasTeen with 3 parameters of         type int. The method should return boolean and it needs to return true if one of the parameters is in range 13(inclusive) - 19            (inclusive). Otherwise return false.
 
@@ -192,7 +194,7 @@
             * isTeen(9);  should return false since 9 is in not range 13 - 19
             * isTeen(13);  should return true since 13 is in range 13 - 19
 
-9. Overloading:
+10. Overloading:
 
       (1) Create a method called calcFeetAndInchesToCentimeters. It needs to have two parameters. Feet is the first parameter, inches is       the 2nd parameter
       
@@ -207,7 +209,7 @@
             Hint: 1 inch = 2.54cm  and one foot = 12 inches
             Hint: Calling another overloaded method just requires you to use the right number of parameters.
 
-10. SecondsAndMinutes:
+11. SecondsAndMinutes:
 
       (1) Create a method called getDurationString with two parameters, first parameter minutes and 2nd parameter seconds. You should           validate that the first parameter minutes is >= 0. You should validate that the 2nd parameter seconds is >= 0 and <= 59. The method       should return "Invalid value" in the method if either of the above are not true. If the parameters are valid then calculate how           many hours minutes and seconds equal the minutes and seconds passed to this method and return that value as string in format "XXh         YYm ZZs" where XX represents a number of hours, YY the minutes and ZZ the seconds.
 
@@ -219,7 +221,7 @@
 	      Tip: For the input 61 minutes output should be 01h 01m 00s, but it is ok if it is 1h 1m 0s 
             Tip: use if-else
 
-11. AreaCalculator:
+12. AreaCalculator:
 
       (1) Write a method named area with one double parameter named radius. The method needs to return a double value that represents the 	area of a circle. If the parameter radius is negative then return -1.0 to represent an invalid value.
 
@@ -239,7 +241,7 @@
 		TIP: The formula for calculating a circle area is radius * radius * PI.
 		TIP: For PI use a constant from Math class e.g. Math.PI
 
-12. MinutesToYearsAndDaysCalculator:
+13. MinutesToYearsAndDaysCalculator:
 
       (1) Write a method printYearsAndDays with parameter of type long named minutes. The method should not return anything (void) and it 	needs to calculate the years and days from the minutes parameter. If the parameter is less than 0, print text "Invalid Value". 	         Otherwise, if the parameter is valid then it needs to print a message in the format "XX min = YY y and ZZ d".
 
@@ -257,7 +259,7 @@
 
 	(3) TIP: Use the remainder operator
 
-13. EqualityPrinter:
+14. EqualityPrinter:
 
 	(1) Write a method printEqual with 3 parameters of type int. The method should not return anything (void). If one of the 		parameters is less than 0, print text "Invalid Value". If all numbers are equal print text "All numbers are equal". If all 		numbers are different print text "All numbers are different". Otherwise, print "Neither all are equal or different".
 
@@ -269,7 +271,7 @@
 		* printEqual(-1, -1, -1); should print text Invalid Value
 		* printEqual(1, 2, 3); should print text All numbers are different
 
-14. PlayingCat:
+15. PlayingCat:
 
 	(1) The cats spend most of the day playing. In particular, they play if the temperature is between 25 and 35 (inclusive). Unless 	 it is summer, then the upper limit is 45 (inclusive) instead of 35. Write a method isCatPlaying that has 2 parameters. Method 		needs to return true if the cat is playing, otherwise return false.
 
